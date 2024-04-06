@@ -1,0 +1,166 @@
+*{
+	margin: 0PX;
+	padding: 0PX;
+}
+.outerbox{
+	border: solid 1px;
+	height: 140px;
+	display: flex;
+}
+#box1,#box2,#box3{
+	border: solid 1px;
+	height: 140px;
+}
+#box1{
+	width: 200px;
+}
+#box2{
+	width: 1000px;
+	text-align: center;
+	background-color: lavender; 
+}
+#box3{
+	width: 200px;
+}
+#clgname{
+	color: #661111;
+	font-size:37px;
+}
+#text1{
+	font-size: 29px;
+	font-weight: bold;
+}
+#text2{
+	font-size: 30px;
+	font-weight: bold;
+	color: brown;
+}
+#scrolltext{
+	font-size: 22px;
+	font-weight: bold;
+}
+.nav{
+	border:solid 1px;
+	height: 48px;
+}
+ul li{
+	border: solid 1px;
+	height: 48px;
+	width: 165px;
+	float: left;
+	text-align: center;
+	line-height: 48px;
+	background-color: #7e9490;
+}
+
+ul{
+	list-style: none;
+}
+ul li a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+.obox{
+	border: solid 1px;
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+#in1,#in2,#in3{
+	border: solid 1px;
+	height: 350px;
+	z-index: -1;
+}
+#in1{
+	width: 600px;
+	background-image: url(img3.jpg);
+	background-repeat: no-repeat;
+	background-size: 600px 350px;
+	animation-name: imgchange;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+	10%{
+       background-image: url(img4.jpg);
+	}
+	20%{
+		background-image: url(img5.jpg);
+	}
+	30%{
+		background-image: url(img.jpg);
+	}
+	40%{
+		background-image: url(img6.jpg);
+	}
+	50%{
+		background-image: url(img2.jpg);
+	}
+}
+#in2,#in3{
+ width: 350px;
+}
+#Placements{
+	border: solid 1px;
+	height: 250px;
+}
+.header{
+	border: solid 1px;
+	height: 50px;
+	background-color: rosybrown;
+	line-height: 50px;
+	padding-left: 120px;
+}
+#head1{
+	padding-right: 40px;
+	color: black;
+	font-size: 22px;
+	text-decoration: none;
+}
+.out{
+	border: solid 1px;
+	height: 420px;
+	display: flex;
+}
+#ug,#pg{
+	border: solid 1px;
+	height: 400px;
+	color: maroon;
+}
+#ug,#pg{
+	width: 900px;
+	margin: 10px;
+}
+#course{
+	border: solid 1px;
+	height: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	padding-left: 15px;
+	padding-top: 5px;
+	background-color: #d2b1de;
+	font-weight: bold;
+	line-height: 20px;
+}
+#ug{
+	background-color:#d4aca9;
+}
+#course:hover{
+	background-color:lavender;
+}
+#pg{
+	background-color:#d4aca9;
+}
+#course:hover{
+	background-color: lavender;
+}
+ul li:hover{
+	background-color: lavender;
+}

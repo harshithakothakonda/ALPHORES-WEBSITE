@@ -1,0 +1,51 @@
+.formbox{
+	border :solid 1px;
+	width:450px;
+	padding-left: 25px;
+	padding-top: 70px;
+	background-color: grey; 
+	margin-left: 390px;
+	padding-bottom: 50px;
+	border-radius: 0% 0% 45% 0%; 
+}
+label{
+	font-size: 22px;
+	color: white;
+}
+input{
+  background-color: grey;
+  border: none;
+  outline: none;
+  color: green;
+  font-size: 20px;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: green;
+  margin-left: 45px;
+}
+#textbox{
+	width: 250px;
+}
+button{
+	height: 50px;
+	width: 150px;
+	background-color: red;
+	border-radius: 50px;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+body{
+	background-image: linear-gradient(grey,white)
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 2px 2px 2px white;
+}
+img{
+	position: relative;
+	left: 450px;
+	top: 40px;
+	border-radius: 50%;
+}
